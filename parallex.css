@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+h2{
+    font-size: 50px;
+    color: azure;
+    text-shadow: 5px 5px coral;
+    /* animation: heading 8s infinite ease-in-out; */
+}
+@keyframes heading {
+    0%{
+        color: azure;
+    }
+    25%{
+        color: cadetblue;
+    }
+    50%{
+        color: black;
+    }
+    75%{
+        color: cornflowerblue;
+    }
+    100%{
+        color: azure;
+    }
+}
+p{
+    font-size: 25px;
+    font-weight: 700;
+    color: bisque;
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://getwallpapers.com/wallpaper/full/1/1/e/1200208-4k-ultra-hd-nature-wallpaper-3840x2160-4k.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+.section2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://wallpapers.com/images/hd/sports-balls-in-4k-4tcqtsgp899vx4f4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+.section3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://cdn.pixabay.com/photo/2024/03/09/08/22/universe-8622206_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+.section4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://www.pixel4k.com/wp-content/uploads/2018/03/Sunset%20Animals399674606.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
